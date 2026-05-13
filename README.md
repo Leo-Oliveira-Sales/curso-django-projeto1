@@ -1,1 +1,1 @@
-# curso-django-projeto1
+# Praticando Django Templates
