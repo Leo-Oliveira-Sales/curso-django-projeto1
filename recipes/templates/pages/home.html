@@ -1,22 +1,15 @@
-{% include "head.html" %}
+{% extends "base/base.html" %}
 
-<body>
-    {% include "header.html" %}
-    {% include "search.html" %}
+{% block title %}Home | {% endblock title %}
 
-    <main class ="main-content-container">
-        <div class="main-content main-content-list container">
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-            {% include "recipe.html" %}
-        </div>
-    </main>
-
-    {% include "footer.html" %}
-</body>
-
+{% block content %}
+<div class="main-content main-content-list container">
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+    {% include "recipe.html" %}
+</div>
+{% endblock %}

@@ -205,3 +205,14 @@ h1, h2, h3, h4, h5, h6 {
 .main-footer a:hover {
    filter: brightness(.8);
 }
+
+.main-content-detail .recipe-list-item {
+   max-width: 84rem;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.main-content-detail .recipe-list-item:hover {
+   transform: scale(1);
+   box-shadow: 0 0 1.5rem #0000006c;
+}
